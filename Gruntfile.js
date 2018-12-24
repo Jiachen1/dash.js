@@ -360,7 +360,7 @@ module.exports = function (grunt) {
             deployment: {
                 options: {
                     host: grunt.option('ftp-host'),
-                    dest: '/cd',
+                    dest: '/',
                     username: grunt.option('ftp-user'),
                     password: grunt.option('ftp-pass'),
                     hideCredentials: true,
